@@ -1,7 +1,7 @@
 #@ RoiManager RoiManager
 #@ ResultsTable ResultsTable
 import ij.IJ
-path_to_output = 'C:/Users/Katerina/Desktop/LeafPustuleData_v2/testing_leaves/'
+path_to_output = '~/testing_leaves/'
 ResultsTable.deleteRows(0, 999999)
 annotations = RoiManager.getROIs()
 annotations.each{ key, value ->
